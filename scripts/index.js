@@ -19,4 +19,7 @@ $(document).ready(function() {
     /*********** Practica 3 - jQuery**************** */
     // css en columna dos
     $("table tr td:contains('Henry')").next().addClass("highlight");
+
+    $("table tr td:contains('Tragedy')").addClass("highlight");
+    $("table tr td:contains('Tragedy')").next().addClass("highlight");
 });
